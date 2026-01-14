@@ -1,4 +1,4 @@
-from config import TOKEN, ADMIN_ID, ENERGY_MEANINGS
+from config import TOKEN, ADMIN_ID, WELCOME TEXT, ENERGY_MEANINGS
 import re
 from telegram import (
     Update, KeyboardButton, ReplyKeyboardMarkup,
@@ -284,4 +284,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
