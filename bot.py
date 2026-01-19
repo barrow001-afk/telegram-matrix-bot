@@ -5,8 +5,8 @@ from threading import Thread
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, ConversationHandler, filters
 
-TOKEN = os.environ.get("TOKEN", "ВАШ_ТОКЕН_ЗДЕСЬ")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", 123456789))
+TOKEN = os.environ.get("TOKEN", "8582895684:AAFX1JH2DrRNCuUbEMmJF5T-prWl3NZXIEg")
+ADMIN_ID = int(os.environ.get("ADMIN_ID", 846008896))
 
 VIDEO_NOTE_ID = "AgADcZkAApdcEUs"
 
