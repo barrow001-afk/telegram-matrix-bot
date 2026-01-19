@@ -1,3 +1,4 @@
+print("🔥 ЗАПУЩЕН НОВЫЙ BOT.PY НА PTB 20 🔥")
 import re
 from telegram import (
     Update, KeyboardButton, ReplyKeyboardMarkup,
